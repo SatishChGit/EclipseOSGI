@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: InvocationSampleTwo
+Bundle-SymbolicName: InvocationSampleTwo
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: invocationsampletwo.Activator
+Bundle-Vendor: teradata
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: helloservice.sample,
+ org.osgi.framework;version="1.3.0"
+Automatic-Module-Name: InvocationSampleTwo
+Require-Bundle: HelloServiceWithoutFactory;bundle-version="1.0.0"
